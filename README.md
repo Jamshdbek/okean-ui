@@ -1,6 +1,6 @@
 # React UI Library OKEAN 🌊
 
-This is simple React UI Library for integrate tailwind css
+This is a simple React UI library width integrating Tailwind CSS.
 
  <a href="https://badge.fury.io/js/okean-ui.svg">
     <img src="https://badge.fury.io/js/okean-ui.svg" alt="NPM Package" />
@@ -10,7 +10,7 @@ This is simple React UI Library for integrate tailwind css
  
  Helping developers to make easy and convenient components and work with components with beautiful ui design
 
-* buttons
+* buttons 
 * inputs
 * forms
 * layouts

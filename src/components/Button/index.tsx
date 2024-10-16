@@ -1,19 +1,23 @@
 import { cn } from "../../utils";
 import { cva, VariantProps } from "class-variance-authority";
 import { ComponentProps, forwardRef } from "react";
+import "./index.css"
 
 const buttonStyles = cva(
   [
     "w-full",
+    "border",
+    "p-2",
     "rounded-md",
-    "font-semibold",
-    "focus:outline-none",
-    "disabled:cursor-not-allowed",
+    "border-1",
+    "text-black",
+    "liner",
+    "border-gray-200",
   ],
   {
     variants: {
       variant: {
-        solid: "",
+        solid: "border-1",
         outline: "border-2",
         ghost: "transition-colors duration-300",
       },
@@ -28,7 +32,11 @@ const buttonStyles = cva(
       },
       colorscheme: {
         primary: "text-white",
+        liner:"liner"
       },
+      ocean:{
+        liner:"liner"
+      }
     },
     compoundVariants: [
       {
