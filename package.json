@@ -1,17 +1,17 @@
 {
-  "name": "rimo-ui",
+  "name": "okean-ui",
   "version": "0.0.13",
   "description": "react ui library  ✨",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "dist/rimo-ui-umd.cjs",
-  "module": "dist/rimo-ui.js",
+  "main": "dist/okean-ui-umd.cjs",
+  "module": "dist/okean-ui.js",
   "exports": {
     ".": {
-      "import": "./dist/rimo-ui.js",
-      "require": "./dist/rimo-ui-umd.cjs"
+      "import": "./dist/okean-ui.js",
+      "require": "./dist/okean-ui-umd.cjs"
     }
   },
   "scripts": {
@@ -24,20 +24,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Jamshdbek/rimo-ui.git"
+    "url": "git+https://github.com/Jamshdbek/okean-ui.git"
   },
   "keywords": [
-    "rimo-ui",
-    "Rimo-ui",
-    "Rimo",
-    "RIMO-UI"
+    "okean-ui",
+    "okean-ui",
+    "okean",
+    "okean-UI"
   ],
   "author": "Jamshid",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Jamshdbek/rimo-ui/issues"
+    "url": "https://github.com/Jamshdbek/okean-ui/issues"
   },
-  "homepage": "https://github.com/Jamshdbek/rimo-ui#readme",
+  "homepage": "https://github.com/Jamshdbek/okean-ui#readme",
   "dependencies": {
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",

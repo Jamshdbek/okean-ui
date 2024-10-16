@@ -12,8 +12,8 @@ export default defineConfig({
     build: {
         lib: {
             entry: path.resolve(__dirname, "./src/components/index.tsx"),
-            name: "RimoUI",
-            fileName: "rimo-ui",
+            name: "OkeanUI",
+            fileName: "okean-ui",
         },
         rollupOptions: {
             external: ["react", "react-dom"],
