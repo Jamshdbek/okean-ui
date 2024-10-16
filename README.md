@@ -1,6 +1,6 @@
-# React UI Library RIMO
+# React UI Library OKEAN
 
 This is simple React UI Library for integrate tailwind css
 
 
-![Rimo](https://i.imgur.com/czy1PAB.png)
+<!-- ![OKEAN](https://i.imgur.com/czy1PAB.png) -->
