@@ -1,7 +1,7 @@
 {
   "name": "okean-ui",
-  "version": "0.0.13",
-  "description": "react ui library  ✨",
+  "version": "0.0.15",
+  "description": "react ui library ✨🌊",
   "type": "module",
   "files": [
     "dist"
@@ -37,7 +37,7 @@
   "bugs": {
     "url": "https://github.com/Jamshdbek/okean-ui/issues"
   },
-  "homepage": "https://github.com/Jamshdbek/okean-ui#readme",
+  "homepage": "https://okean.ibro.uz",
   "dependencies": {
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
