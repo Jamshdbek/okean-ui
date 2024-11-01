@@ -1,18 +1,19 @@
 import { cn } from "../../utils";
 import { cva, VariantProps } from "class-variance-authority";
 import { ComponentProps, forwardRef } from "react";
-import "./index.css"
+import "./index.css";
 
 const buttonStyles = cva(
   [
     "w-full",
     "border",
     "p-2",
-    "rounded-md",
+    "rounded-lg",
     "border-1",
     "text-black",
     "liner",
-    "border-gray-200",
+    "border-inherit",
+    "border-blue-400",
   ],
   {
     variants: {
@@ -23,7 +24,7 @@ const buttonStyles = cva(
       },
       color: {
         black: "text-black",
-        red:"text-red"
+        red: "text-red",
       },
       size: {
         sm: "px-4 py-2 text-sm",
@@ -32,11 +33,11 @@ const buttonStyles = cva(
       },
       colorscheme: {
         primary: "text-white",
-        liner:"liner"
+        liner: "liner",
       },
-      ocean:{
-        liner:"liner"
-      }
+      ocean: {
+        liner: "liner",
+      },
     },
     compoundVariants: [
       {

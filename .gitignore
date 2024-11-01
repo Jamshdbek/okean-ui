@@ -26,3 +26,6 @@ dist-ssr
 *.sw?
 
 *storybook.log
+
+/commad.txt
+commad.txt

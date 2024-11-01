@@ -5,7 +5,6 @@ import { ComponentProps, forwardRef } from "react";
 const inputStyles = cva([
   "w-full",
   "border",
-  "border-gray-200",
   "p-2",
   "rounded-lg",
   "transition-all",
@@ -13,6 +12,8 @@ const inputStyles = cva([
   "outline-none",
   "placeholder:text-gray-400",
   "placeholder:text-sm",
+  "border-inherit",
+  "border-blue-400",
 ]);
 
 type InputProps = ComponentProps<"input"> & VariantProps<typeof inputStyles>;
