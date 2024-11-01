@@ -2,9 +2,7 @@
 
 This is a simple React UI library width integrating Tailwind CSS.
 
- <a href="https://badge.fury.io/js/okean-ui.svg">
-    <img src="https://badge.fury.io/js/okean-ui.svg" alt="NPM Package" />
-  </a>
+<a href="https://badge.fury.io/js/okean-ui"><img src="https://badge.fury.io/js/okean-ui@2x.png" alt="npm version" height="18"></a>
 
 ### Purpose
  
